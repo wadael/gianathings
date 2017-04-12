@@ -88,10 +88,12 @@ public class LonelyActivity extends AppCompatActivity {
             pwm.setPwmDutyCycle(50.0);
             pwm.setEnabled(true);
 
-            for(int cpt=0; cpt < 10 ; cpt++){
+            for(int cpt=0; cpt < 3 ; cpt++){
                 mDisplay.display("T1");
                 playMusic(pwm, Tunes.main_theme_melody, Tunes.main_theme_tempo);
                 Thread.sleep(2000);
+
+                // Song 2
                 mDisplay.display("T2");
                 playMusic(pwm, Tunes.underworld_melody, Tunes.underworld_tempo);
                 Thread.sleep(2000);
@@ -104,11 +106,10 @@ public class LonelyActivity extends AppCompatActivity {
         try {
             mDisplay.display("BYE");
             Thread.sleep(2000);
-            mDisplay.display("");
+            mDisplay.display("    ");
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     private void playMusic(Pwm pwm, int[] main_theme_melody, int[] main_theme_tempo) {
