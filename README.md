@@ -1,6 +1,8 @@
 # An AndroidThings-based melodies player
 
+
 ## Story
+
 
 Based on the projects made during two AndroidThings events.
 I wanted to use the buzzer to play a nice music like the Mario theme.
@@ -8,6 +10,7 @@ I wanted to use the buzzer to play a nice music like the Mario theme.
 Looked like it had already been done (of course) on Arduino (http://www.princetronics.com/supermariothemesong/)
 
 Et voilà !    <--- yes, there is an accent on the a
+
 
 ## Inspirations
  
@@ -28,6 +31,7 @@ at AndroidMakers Paris
   
   * display message forever, changing light intensity
 * increase buzzer volume
+ 
     
 ## Licence
 When you benefit from knowledge of people, you get the responsability to educate more people.
