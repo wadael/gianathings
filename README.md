@@ -1,4 +1,4 @@
-# An AndroidThings-based music player
+# An AndroidThings-based melodies player
 
 ## Story
 
